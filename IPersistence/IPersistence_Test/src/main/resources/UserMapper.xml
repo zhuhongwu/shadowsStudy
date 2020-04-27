@@ -1,0 +1,10 @@
+<mapper namespace="com.shadows.dao.IUserMapper">
+
+    <select id="findAll" resultType="com.shadows.pojo.User">
+        select * from user
+    </select>
+    <select id="findOne" resultType="com.shadows.pojo.User" paramterType="com.shadows.pojo.User">
+        select * from user where id = #{id} and username = #{username}
+    </select>
+
+</mapper>
