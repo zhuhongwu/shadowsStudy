@@ -12,7 +12,7 @@
         <module>IPersistence/IPersistence_Test</module>
         <module>IPersistence/IPersistence_batis</module>
         <module>Mybatis_QuickStart</module>
-        <module>shadows-common</module>
+
     </modules>
     <packaging>pom</packaging>
     <properties>
