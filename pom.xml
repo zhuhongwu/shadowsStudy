@@ -12,6 +12,7 @@
         <module>IPersistence/IPersistence_Test</module>
         <module>IPersistence/IPersistence_batis</module>
         <module>Mybatis_QuickStart</module>
+        <module>design_pattern</module>
 
     </modules>
     <packaging>pom</packaging>
@@ -23,6 +24,20 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
